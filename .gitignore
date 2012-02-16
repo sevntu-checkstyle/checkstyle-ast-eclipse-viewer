@@ -1,0 +1,10 @@
+target/
+bin/
+gh-pages/
+
+*.tar
+*.zip
+*~
+*.settings
+*.classpath
+.checkstyle

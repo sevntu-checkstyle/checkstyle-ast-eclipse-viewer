@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="eclipse.checkstyle.ast.viewer.feature"
+      label="Eclipse Checkstyle AST-Viewer Plugin"
+      version="1.0.1.qualifier">
+
+   <description>
+      Eclipse Checkstyle AST Viewer plugin
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="eclipse-ast-viewer-plugin"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.qualifier"
+         unpack="false"/>
+
+</feature>
