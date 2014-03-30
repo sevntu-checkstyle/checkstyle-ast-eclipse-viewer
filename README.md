@@ -1,17 +1,20 @@
-h3. Project Summary
+### Project Summary
 
-Eclipse Checkstyle AST-Viewer plugin is a simple tool for displaying Checkstyle AST tree on Java files are currently opened in Eclipse.
-Just install it and use by clicking "Open Checkstyle AST Tree" context menu item on any Java file.
+Eclipse Checkstyle AST-Viewer is a simple Eclipse Plugin which adds "Open Checkstyle AST Tree" context menu action is allowed for any Java file is currently opened in Eclipse.
 
-h3. Dependencies:
+### Installation:
+
+Update-site: http://sevntu-checkstyle.github.io/checkstyle-ast-eclipse-viewer/update-site
+
+### Usage: 
+
+
+
+### Dependencies:
 
 "Checkstyle": https://github.com/checkstyle/checkstyle
 
-h3. Author
+### Author
 
 Daniil Yaroslavtsev (https://github.com/daniilyar)
-
-h3. Frequently Asked Questions:
-
-1. 
 
