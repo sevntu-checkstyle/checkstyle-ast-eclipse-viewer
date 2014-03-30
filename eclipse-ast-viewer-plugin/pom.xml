@@ -6,12 +6,12 @@
     <parent>
         <groupId>com.github.sevntu.eclipse-ast-viewer</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>eclipse-ast-viewer-plugin</artifactId>
     <packaging>eclipse-plugin</packaging>
-    <version>1.0.1.qualifier</version>
+    <version>1.0.2.qualifier</version>
 
     <name>Eclipse Checkstyle AST-Viewer Plugin</name>
     

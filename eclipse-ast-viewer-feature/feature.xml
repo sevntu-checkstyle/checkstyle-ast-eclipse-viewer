@@ -2,7 +2,7 @@
 <feature
       id="eclipse.checkstyle.ast.viewer.feature"
       label="Eclipse Checkstyle AST-Viewer Plugin"
-      version="1.0.1.qualifier">
+      version="1.0.2.qualifier">
 
    <description>
       Eclipse Checkstyle AST Viewer plugin
@@ -20,7 +20,7 @@
          id="eclipse-ast-viewer-plugin"
          download-size="0"
          install-size="0"
-         version="1.0.1.qualifier"
+         version="1.0.2"
          unpack="false"/>
 
 </feature>
