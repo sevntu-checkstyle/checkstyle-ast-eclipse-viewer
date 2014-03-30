@@ -1,4 +1,4 @@
-package com.dsmviewer.utils;
+package com.ast.viewer;
 
 import org.eclipse.core.resources.IResource;
 

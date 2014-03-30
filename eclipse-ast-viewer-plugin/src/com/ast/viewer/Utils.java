@@ -1,4 +1,4 @@
-package com.dsmviewer.utils;
+package com.ast.viewer;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;

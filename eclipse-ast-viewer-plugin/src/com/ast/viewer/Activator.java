@@ -1,8 +1,6 @@
 package com.ast.viewer;
 
 import java.io.File;
-import java.net.URL;
-import java.util.Enumeration;
 
 import org.eclipse.core.runtime.ILog;
 import org.eclipse.core.runtime.Status;
@@ -12,10 +10,7 @@ import org.eclipse.jface.resource.ImageRegistry;
 import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
-import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
-
-import com.dsmviewer.utils.Utils;
 
 /**
  * 
@@ -35,19 +30,19 @@ public class Activator extends AbstractUIPlugin {
 		instance = this;
 
 		imageRegistry = new ImageRegistry();
-		loadImagesToRegistry();
+//		loadImagesToRegistry();
 	}
 
-	private static void loadImagesToRegistry() {
-		Bundle bundle = instance.getBundle();
-
-		Enumeration<URL> entries = bundle.findEntries("/icons/", "*.*", true);
-		while (entries.hasMoreElements()) {
-			URL url = entries.nextElement();
-			ImageDescriptor desc = ImageDescriptor.createFromURL(url);
-			imageRegistry.put(Utils.extractFileName(url), desc);
-		}
-	}
+//	private static void loadImagesToRegistry() {
+//		Bundle bundle = instance.getBundle();
+//
+//		Enumeration<URL> entries = bundle.findEntries("/icons/", "*.*", true);
+//		while (entries.hasMoreElements()) {
+//			URL url = entries.nextElement();
+//			ImageDescriptor desc = ImageDescriptor.createFromURL(url);
+//			imageRegistry.put(Utils.extractFileName(url), desc);
+//		}
+//	}
 
 	@Override
 	public void stop(BundleContext context) throws Exception {
