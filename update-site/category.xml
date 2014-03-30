@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/eclipse.ast.viewer.feature_1.0.1.qualifier.jar" id="eclipse.checkstyle.ast.viewer.feature" version="1.0.1.qualifier">
+   <feature url="features/eclipse.checkstyle.ast.viewer.feature_1.0.2.qualifier.jar" id="eclipse.checkstyle.ast.viewer.feature" version="1.0.2.qualifier">
       <category name="Eclipse Checkstyle AST Viewer"/>
    </feature>
    <category-def name="Eclipse Checkstyle AST Viewer" label="Eclipse Checkstyle AST Viewer"/>
